@@ -1,0 +1,20 @@
+Following are the high level requirements for the system.
+
+* The program must be able to manage user access to the Student Unix Network (SUN) Lab. 
+* The program shall maintain accurate records of user access events. 
+* The program shall support future extension for additional user types and operations. 
+* The system must support adding, modifying, and viewing user records. 
+* The system must validate the uniqueness of student_id and email. 
+* The system shall handle multiple user types. 
+* The system must log each access event with accurate timestamps. 
+* The system must distinguish between different types of access events (entry and exit).
+* The system shall not allow access logs to be modified once they are created. 
+* The program must provide a graphical user interface (GUI) for managing users and viewing access logs.
+* The system shall not allow unauthorized access to administrative functions.
+* The GUI must include:
+    - A form for entering and modifying user information.
+    - A table for displaying access logs with filter options.
+* An authorized user must be able to browse access history filtered by:
+    - Student id
+    - Date
+    - Time range
